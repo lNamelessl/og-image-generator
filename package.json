@@ -1,0 +1,27 @@
+{
+  "name": "og-image-generator",
+  "version": "1.0.0",
+  "description": "Self-hosted Open Graph image generator API: satori + resvg, no headless Chrome",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/src/index.js",
+    "dev": "node --experimental-strip-types src/index.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "2.1.3",
+    "@resvg/resvg-js": "2.6.2",
+    "hono": "4.13.13",
+    "ipaddr.js": "2.2.0",
+    "satori": "0.35.0",
+    "twemoji-parser": "14.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.5",
+    "typescript": "5.7.3"
+  }
+}

@@ -1,0 +1,11 @@
+node_modules
+dist
+.git
+.gitignore
+builds
+docs
+scripts
+*.md
+!NOTICE.md
+railway.json
+.DS_Store

@@ -14,7 +14,7 @@ tens of milliseconds inside ~250MB of RSS, so a $5/mo 512MB Railway instance is 
 
 ## Deploy on Railway
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.app/new?github_url=https://github.com/OWNER/og-image-generator)
+[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/deploy/og-image-generator)
 
 Zero configuration: no environment variables are required. Railway injects `PORT`
 and the container listens on it. The public URL is provisioned automatically.
